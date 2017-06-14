@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "uXMLParser.parser(XMLParser, didStartElement : String, namespaceURI : String?, qualifiedName : String?, attributes : [String : String]) -&gt; ():AutoPost.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "objects">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BaseService.requestSubmit(url : String, method : HTTPMethod, param : [String : Any]?, success : (JSON) -&gt; (), fail : (String) -&gt; ()) -&gt; ():BaseService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "print(param)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CommentVC.(getData() -&gt; ()).(closure #1):CommentVC.swift">
+      </ContextState>
+      <ContextState
+         contextName = "MessageBox.setData(comment : String) -&gt; ():MessageBox.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "content">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AutoPostTV.viewDidLoad() -&gt; ():AutoPostTV.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.dict">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "XPathObject.subscript.getter:Kanna.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "stringHtml">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "XMLParse.parser(XMLParser, didStartElement : String, namespaceURI : String?, qualifiedName : String?, attributes : [String : String]) -&gt; ():XMLParse.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "objects">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ContentPost.loadWebkit(_type : ContentPost.type) -&gt; ():ContentPost.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "html">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CommentVC.tableView(UITableView, cellForRowAt : IndexPath) -&gt; UITableViewCell:CommentVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "data[indexPath.row]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "XMLParse.(parse(handler : () -&gt; ()) -&gt; ()).(closure #1):XMLParse.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "url">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AutoPostTV.tableView(UITableView, didSelectRowAt : IndexPath) -&gt; ():AutoPostTV.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "parentNav.title">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CommentVC.tableView(UITableView, numberOfRowsInSection : Int) -&gt; Int:CommentVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "comment">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CommentVC.addPopup(msg : String) -&gt; ():CommentVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "msgbox.content">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Comment.parse(json : JSON) -&gt; ():Comment.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "json">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AutoPost.viewDidLoad() -&gt; ():AutoPost.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "xmlParser.objects">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MessageBox.viewDidLoad() -&gt; ():MessageBox.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_content">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AutoPostTV.tableView(UITableView, cellForRowAt : IndexPath) -&gt; UITableViewCell:AutoPostTV.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "detectThumb(desc:dict[indexPath.row][&quot;description&quot;])">
+            </PersistentString>
+            <PersistentString
+               value = "dict">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AutoPostContent.post() -&gt; ():AutoPostContent.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "listTag!.append(indoc.text!)">
+            </PersistentString>
+            <PersistentString
+               value = "doc.css(&quot;.block_ads_connect&quot;)[0].toHTML">
+            </PersistentString>
+            <PersistentString
+               value = "indoc.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "uXMLParser.parser(XMLParser, didEndElement : String, namespaceURI : String?, qualifiedName : String?) -&gt; ():AutoPost.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "object">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

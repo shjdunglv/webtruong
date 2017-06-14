@@ -1,0 +1,80 @@
+PODS:
+  - Alamofire (4.3.0)
+  - CardIO (5.4.1)
+  - DLRadioButton (1.4.9)
+  - DropDown (2)
+  - GGLInstanceID (1.2.1)
+  - Google/CloudMessaging (2.0.4):
+    - GGLInstanceID (~> 1.0)
+    - Google/Core
+    - GoogleCloudMessaging (~> 1.0)
+  - Google/Core (2.0.4):
+    - GoogleInterchangeUtilities (~> 1.0)
+    - GoogleNetworkingUtilities (~> 1.0)
+    - GoogleSymbolUtilities (~> 1.0)
+    - GoogleUtilities (~> 1.1)
+  - GoogleCloudMessaging (1.2.0):
+    - GoogleInterchangeUtilities (~> 1.0)
+    - GoogleIPhoneUtilities (~> 1.0)
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleInterchangeUtilities (1.2.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - GoogleIPhoneUtilities (1.2.1):
+    - GoogleSymbolUtilities (~> 1.0)
+    - GoogleUtilities (~> 1.0)
+  - GoogleNetworkingUtilities (1.2.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - GoogleSymbolUtilities (1.1.2)
+  - GoogleUtilities (1.3.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - Kanna (2.1.1)
+  - Kingfisher (3.3.4)
+  - MIBadgeButton-Swift (0.4)
+  - PayPal-iOS-SDK (2.16.1):
+    - PayPal-iOS-SDK/CardIO (= 2.16.1)
+    - PayPal-iOS-SDK/Core (= 2.16.1)
+  - PayPal-iOS-SDK/CardIO (2.16.1):
+    - CardIO (~> 5.4.1)
+  - PayPal-iOS-SDK/Core (2.16.1)
+  - RATreeView (2.1.2)
+  - SlideMenuControllerSwift (3.0.1)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - CardIO
+  - DLRadioButton (~> 1.4)
+  - DropDown
+  - Google/CloudMessaging
+  - Kanna (~> 2.1.0)
+  - Kingfisher (~> 3.0)
+  - MIBadgeButton-Swift (~> 0.4)
+  - PayPal-iOS-SDK
+  - RATreeView
+  - SlideMenuControllerSwift
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  CardIO: 56983b39b62f495fc6dae9ad7cf875143df06443
+  DLRadioButton: 7bb8a6e3768b572469ace553391ab4d2af6f9c19
+  DropDown: 744784d9c9aa505100e942c16acd05430cbb2f0a
+  GGLInstanceID: 4a317044f744281b82cd03015f379899f277cad3
+  Google: d0932824c5b97c96be489aa6f4e8cd6c294d637d
+  GoogleCloudMessaging: f37ea14dd0f41d4d889c10b5559dd35bbfd9ac26
+  GoogleInterchangeUtilities: d5bc4d88d5b661ab72f9d70c58d02ca8c27ad1f7
+  GoogleIPhoneUtilities: 63f25e93a3ddcb66884d182aab3a660d98f1479b
+  GoogleNetworkingUtilities: 3edd3a8161347494f2da60ea0deddc8a472d94cb
+  GoogleSymbolUtilities: 631ee17048aa5e9ab133470d768ea997a5ef9b96
+  GoogleUtilities: 8bbc733218aad26306f9d4a253823986110e3358
+  Kanna: 9b4b086c218703f2b94f5b21a466217dd2f9332e
+  Kingfisher: 35f289f015d26e81ea6c85048718c6205f3933c6
+  MIBadgeButton-Swift: b5d07924904c84bcb8e8fe3c3131b8499f28930c
+  PayPal-iOS-SDK: 774ac7de2d7c3b0ee7e8a35f8b347fd07787321b
+  RATreeView: 380cde0090cfde21dc6ac29137f49d3b768fdd28
+  SlideMenuControllerSwift: 9a163b16d54afab734add42858cba7ef7c307755
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: a6b215dd043ed939c901f0482333462f98e9f180
+
+COCOAPODS: 1.1.1

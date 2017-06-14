@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CellUpLoadImage" customModule="RaoViet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="158" height="87"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="158" height="87"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_intro.png" translatesAutoresizingMaskIntoConstraints="NO" id="G3v-kI-M74">
+                        <rect key="frame" x="10" y="10" width="138" height="67"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dm2-10-kQB">
+                        <rect key="frame" x="138" y="0.0" width="20" height="20"/>
+                        <color key="backgroundColor" red="1" green="0.21300500010000001" blue="0.14742256610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="WR1-Or-A5C"/>
+                            <constraint firstAttribute="width" constant="20" id="XJN-mb-cws"/>
+                        </constraints>
+                        <state key="normal" image="cancel"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <action selector="removeImage:" destination="gTV-IL-0wX" eventType="touchUpInside" id="lIS-d9-uuq"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="dm2-10-kQB" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="6Qe-ir-Lbl"/>
+                <constraint firstAttribute="trailing" secondItem="G3v-kI-M74" secondAttribute="trailing" constant="10" id="FTx-Jc-BVN"/>
+                <constraint firstAttribute="bottom" secondItem="G3v-kI-M74" secondAttribute="bottom" constant="10" id="dzo-bc-JVw"/>
+                <constraint firstItem="G3v-kI-M74" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="ejK-oa-E9V"/>
+                <constraint firstItem="G3v-kI-M74" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="jbz-I2-bB7"/>
+                <constraint firstAttribute="trailing" secondItem="dm2-10-kQB" secondAttribute="trailing" id="zt7-v2-X78"/>
+            </constraints>
+            <size key="customSize" width="158" height="87"/>
+            <connections>
+                <outlet property="imageUpload" destination="G3v-kI-M74" id="VgN-qe-4sQ"/>
+            </connections>
+            <point key="canvasLocation" x="79" y="70.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="cancel" width="30" height="30"/>
+        <image name="image_intro.png" width="434" height="304"/>
+    </resources>
+</document>

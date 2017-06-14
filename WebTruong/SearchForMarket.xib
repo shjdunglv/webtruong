@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OPENSANS-REGULAR.TTF">
+            <string>OpenSans</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchForMarket" customModule="RaoViet" customModuleProvider="target">
+            <connections>
+                <outlet property="btnBang" destination="S4r-C6-vEW" id="Ntn-20-F5W"/>
+                <outlet property="btnCity" destination="Aui-wh-gMu" id="I4Z-9X-S8t"/>
+                <outlet property="btnSearch" destination="B6g-O3-ol7" id="Grp-K7-K2Q"/>
+                <outlet property="tfKeywork" destination="MBr-Qp-DiK" id="KEo-he-0yR"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rkL-BO-7kj">
+                    <rect key="frame" x="0.0" y="30" width="375" height="334"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9th-cX-gvK">
+                            <rect key="frame" x="0.0" y="57" width="375" height="57"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S4r-C6-vEW" customClass="CustomButton" customModule="RaoViet" customModuleProvider="target">
+                                    <rect key="frame" x="8" y="4" width="359" height="49"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
+                                    <state key="normal" title="Chọn Bang">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="actionButton:" destination="-1" eventType="touchUpInside" id="Fe3-A9-wi4"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="S4r-C6-vEW" secondAttribute="trailing" constant="8" id="AVT-m9-fxc"/>
+                                <constraint firstItem="S4r-C6-vEW" firstAttribute="leading" secondItem="9th-cX-gvK" secondAttribute="leading" constant="8" id="Dyo-4O-6A3"/>
+                                <constraint firstItem="S4r-C6-vEW" firstAttribute="top" secondItem="9th-cX-gvK" secondAttribute="top" constant="4" id="e7b-Pg-0pB"/>
+                                <constraint firstAttribute="bottom" secondItem="S4r-C6-vEW" secondAttribute="bottom" constant="4" id="iNY-a9-IVx"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7oI-qu-amG">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="57"/>
+                            <subviews>
+                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Từ khóa" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MBr-Qp-DiK" customClass="CustomTextFieldForSearch" customModule="RaoViet" customModuleProvider="target">
+                                    <rect key="frame" x="8" y="4" width="359" height="49"/>
+                                    <nil key="textColor"/>
+                                    <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="MBr-Qp-DiK" firstAttribute="leading" secondItem="7oI-qu-amG" secondAttribute="leading" constant="8" id="3SJ-cv-eWa"/>
+                                <constraint firstItem="MBr-Qp-DiK" firstAttribute="top" secondItem="7oI-qu-amG" secondAttribute="top" constant="4" id="Bkj-OC-KMv"/>
+                                <constraint firstAttribute="trailing" secondItem="MBr-Qp-DiK" secondAttribute="trailing" constant="8" id="Fq6-9j-fgM"/>
+                                <constraint firstAttribute="bottom" secondItem="MBr-Qp-DiK" secondAttribute="bottom" constant="4" id="XaT-WO-pXS"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z5O-IM-Obx">
+                            <rect key="frame" x="0.0" y="114" width="375" height="57"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aui-wh-gMu" customClass="CustomButton" customModule="RaoViet" customModuleProvider="target">
+                                    <rect key="frame" x="8" y="4" width="359" height="49"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
+                                    <state key="normal" title="Chọn Thành Phố">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="actionButton:" destination="-1" eventType="touchUpInside" id="Fis-7K-PqG"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="Aui-wh-gMu" firstAttribute="leading" secondItem="Z5O-IM-Obx" secondAttribute="leading" constant="8" id="32e-LY-Jkd"/>
+                                <constraint firstAttribute="bottom" secondItem="Aui-wh-gMu" secondAttribute="bottom" constant="4" id="EU4-Yq-bVG"/>
+                                <constraint firstItem="Aui-wh-gMu" firstAttribute="top" secondItem="Z5O-IM-Obx" secondAttribute="top" constant="4" id="qWq-TA-89t"/>
+                                <constraint firstAttribute="trailing" secondItem="Aui-wh-gMu" secondAttribute="trailing" constant="8" id="uqP-Or-ppZ"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Jg-eL-AWJ">
+                            <rect key="frame" x="0.0" y="171" width="375" height="57"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B6g-O3-ol7" customClass="CustomButton" customModule="RaoViet" customModuleProvider="target">
+                                    <rect key="frame" x="8" y="4" width="359" height="49"/>
+                                    <color key="backgroundColor" red="0.14117647058823529" green="0.60784313725490191" blue="0.70196078431372544" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="15"/>
+                                    <state key="normal" title="Tìm kiếm">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="actionButton:" destination="-1" eventType="touchUpInside" id="XfI-yB-jFY"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="B6g-O3-ol7" secondAttribute="trailing" constant="8" id="LPq-mm-e2b"/>
+                                <constraint firstItem="B6g-O3-ol7" firstAttribute="leading" secondItem="5Jg-eL-AWJ" secondAttribute="leading" constant="8" id="mlD-C1-Pmi"/>
+                                <constraint firstItem="B6g-O3-ol7" firstAttribute="top" secondItem="5Jg-eL-AWJ" secondAttribute="top" constant="4" id="r5n-N8-TW8"/>
+                                <constraint firstAttribute="bottom" secondItem="B6g-O3-ol7" secondAttribute="bottom" constant="4" id="wZy-8o-1od"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="7oI-qu-amG" secondAttribute="trailing" id="1ht-BJ-9oj"/>
+                        <constraint firstItem="5Jg-eL-AWJ" firstAttribute="height" secondItem="9th-cX-gvK" secondAttribute="height" id="Bn4-NG-JqG"/>
+                        <constraint firstAttribute="trailing" secondItem="Z5O-IM-Obx" secondAttribute="trailing" id="EUe-me-fvH"/>
+                        <constraint firstItem="9th-cX-gvK" firstAttribute="top" secondItem="7oI-qu-amG" secondAttribute="bottom" id="FQQ-ij-mDf"/>
+                        <constraint firstItem="Z5O-IM-Obx" firstAttribute="height" secondItem="9th-cX-gvK" secondAttribute="height" id="GJm-eC-QIU"/>
+                        <constraint firstItem="5Jg-eL-AWJ" firstAttribute="top" secondItem="Z5O-IM-Obx" secondAttribute="bottom" id="NRK-Vk-Wv5"/>
+                        <constraint firstItem="7oI-qu-amG" firstAttribute="leading" secondItem="rkL-BO-7kj" secondAttribute="leading" id="OV5-C6-icd"/>
+                        <constraint firstItem="5Jg-eL-AWJ" firstAttribute="leading" secondItem="rkL-BO-7kj" secondAttribute="leading" id="P0o-fx-zr0"/>
+                        <constraint firstItem="9th-cX-gvK" firstAttribute="height" secondItem="rkL-BO-7kj" secondAttribute="height" multiplier="1/5" constant="-10" id="QVL-S1-yW7"/>
+                        <constraint firstItem="Z5O-IM-Obx" firstAttribute="top" secondItem="9th-cX-gvK" secondAttribute="bottom" id="U0H-fW-HkX"/>
+                        <constraint firstAttribute="trailing" secondItem="5Jg-eL-AWJ" secondAttribute="trailing" id="VJN-tY-sLW"/>
+                        <constraint firstItem="Z5O-IM-Obx" firstAttribute="leading" secondItem="rkL-BO-7kj" secondAttribute="leading" id="Yh9-xc-a56"/>
+                        <constraint firstAttribute="trailing" secondItem="9th-cX-gvK" secondAttribute="trailing" id="fvZ-37-1g5"/>
+                        <constraint firstItem="7oI-qu-amG" firstAttribute="top" secondItem="rkL-BO-7kj" secondAttribute="top" id="laR-y5-fdF"/>
+                        <constraint firstItem="9th-cX-gvK" firstAttribute="leading" secondItem="rkL-BO-7kj" secondAttribute="leading" id="mCg-8i-NQH"/>
+                        <constraint firstItem="7oI-qu-amG" firstAttribute="height" secondItem="9th-cX-gvK" secondAttribute="height" id="pU8-su-bPg"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="rkL-BO-7kj" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="30" id="0WO-hG-lXL"/>
+                <constraint firstAttribute="trailing" secondItem="rkL-BO-7kj" secondAttribute="trailing" id="19f-LR-cp3"/>
+                <constraint firstItem="rkL-BO-7kj" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="1/2" id="Rzi-Gs-j34"/>
+                <constraint firstItem="rkL-BO-7kj" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="gGS-tV-9sD"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

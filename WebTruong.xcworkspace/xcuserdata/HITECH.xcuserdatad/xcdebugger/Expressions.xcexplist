@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "NewPostDetailViewController.collectionView(UICollectionView, layout : UICollectionViewLayout, sizeForItemAt : IndexPath) -&gt; CGSize:NewPostDetailViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "UILayoutFittingExpandedSize">
+            </PersistentString>
+            <PersistentString
+               value = "someReasonableEstimatedSize()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CellForDetailPost.(tapFunction(sender : UITapGestureRecognizer) -&gt; ()).(closure #1):CellForDetailPost.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "htmlcontent">
+            </PersistentString>
+            <PersistentString
+               value = "post.content">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NewPostDetailViewController.(getData(type : Int, page : Int) -&gt; ()).(closure #1):NewPostDetailViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "category">
+            </PersistentString>
+            <PersistentString
+               value = "post as json">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CellForDetailPost.init(frame : CGRect) -&gt; CellForDetailPost:CellForDetailPost.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "lbLink1">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NewPostDetailViewController.collectionView(UICollectionView, cellForItemAt : IndexPath) -&gt; UICollectionViewCell:NewPostDetailViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "data">
+            </PersistentString>
+            <PersistentString
+               value = "cell.contentView.frame.height">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MenuViewController.viewWillAppear(Bool) -&gt; ():MenuViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "user.picture_profile">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ContentPost.loadHtml(html : String) -&gt; ():ContentPost.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "wkView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "content_post.parse(json : JSON) -&gt; ():Content_Post.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "json[&quot;viewed&quot;].string">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LoginViewController.(checkLogin(phone_email : String, password : String) -&gt; ()).(closure #1):LoginViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "BaseService.(requestSubmit(url : String, method : HTTPMethod, param : [String : Any]?, success : (JSON) -&gt; (), fail : (String) -&gt; ()) -&gt; ()).(closure #1):BaseService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "json[0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NewPostDetailViewController.(getData(type : Int, page : Int) -&gt; ()).(closure #1).(closure #1):NewPostDetailViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "data">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CellForDetailPost.tapFunction(sender : UITapGestureRecognizer) -&gt; ():CellForDetailPost.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "doc?.css(&quot;.main-content&quot;)[0].text">
+            </PersistentString>
+            <PersistentString
+               value = "msg">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CellForDetailPost.init(coder : NSCoder) -&gt; CellForDetailPost?:CellForDetailPost.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "lbLink2">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TableDetail.tableView(UITableView, didSelectRowAt : IndexPath) -&gt; ():TableDetail.swift">
+      </ContextState>
+      <ContextState
+         contextName = "MenuViewController.treeView(RATreeView, child : Int, ofItem : Any?) -&gt; Any:MenuViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "menus[index]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CellForDetailPost.set4Link.didset:CellForDetailPost.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(set4Link?[0].viewed)">
+            </PersistentString>
+            <PersistentString
+               value = "(&quot;\(set4Link![0].viewed!)&quot;)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
