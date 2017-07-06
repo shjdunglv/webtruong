@@ -7,12 +7,11 @@
 //
 import Kanna
 import UIKit
-
 class AutoPostTV: BaseViewController,XMLMParserDelegate {
     enum server: String {
         case vnexpress
         case dantri
-        case h24
+        case _24h
     }
     func XMLMParserError(parser: XMLParser, eroor: String) {
         print(eroor)
